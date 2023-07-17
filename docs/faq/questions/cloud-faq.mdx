@@ -268,8 +268,7 @@ Cloud.
 - `https://on.cypress.io` - **URL shortener for link redirects**
 
 **If you are using GitHub Enterprise or GitLab for Enterprise (Self-managed),
-you may also need to add both the following to the version control IP allow
-list:**
+you may also need to add both the following to the version control IP allowlist:**
 
 - `3.211.102.119` - **Dedicated IP**
 - `18.213.72.78` - **Dedicated IP**
@@ -355,6 +354,7 @@ Test Replay leverages [Chrome DevTools Protocol(CDP)](https://chromedevtools.git
 Test Replay would be disabled, with a message that it's only available on Chromium, for tests run in Firefox or Webkit (Safari). You can still record and capture test [artifacts](/guides/cloud/debugging/recorded-runs#Artifacts) (screenshots, videos and CI logs) via other browsers in separate [run groups](/guides/cloud/smart-orchestration/parallelization#Grouping-test-runs).
 
 ### <Icon name="angle-right" /> Can I replay tests from historical Cypress Cloud runs?
+
 Test Replay is available for tests recorded using Cypress `v13` and up. Tests recorded prior to this will not have Test Replay enabled in Cypress Cloud. You will still have any artifacts collected during the pre `v13` test runs.
 
 ### <Icon name="angle-right" /> Can I share my test replays?
